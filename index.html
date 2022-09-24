@@ -14,51 +14,53 @@
 </head>
 
 <body>
-    <div class="wrapper black" id="wrapper">
-        <section class="screen login">
-            <div class="login_header">
-                <button class="help_button" id="back_login">
-                    <p class="help_button_text">Повернутись</p>
-                    <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
-                </button>
-            </div>
-            <form class="login_form" action="#" method="post">
-                <h3 class="block_title">Увійти</h3>
-                <input class="login_form-input explain_text black_border" type="text" placeholder="Логін">
-                <div class="pass_wrap">
-                    <input type="text" class="login_form-input explain_text black_border" placeholder="Пароль">
-                    <a href="#" class="help_button_text">Забули пароль</a>
+    <div class="wrapper black">
+        <div class="screen_wrap" id="wrapper">
+            <section class="screen login">
+                <div class="login_header">
+                    <button class="help_button" id="back_login">
+                        <p class="help_button_text">Повернутись</p>
+                        <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
+                    </button>
                 </div>
-                <button type="submit" class="button_text black">Увійти</button>
-            </form>
-        </section>
-        <section class="screen welcome" id="welcome">
-            <div class="title_wrap">
-                <h3 class="block_title">Вітаємо</h3>
-                <h4 class="subtitle_text">Ми допоможемо вам спланувати не забутню поїздку</h4>
-            </div>
-            <div class="button_wrap">
-                <button class="button_text" id="login">Увійти</button>
-                <p class="subtitle_text more_text">або</p>
-                <button class="button_text button black" id="signup">Зареєструватись</button>
-            </div>
-        </section>
-        <section class="screen signup">
-            <div class="login_header">
-                <button class="help_button" id="back_signup">
-                    <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
-                    <p class="help_button_text">Повернутись</p>
-                </button>
-            </div>
-            <form class="login_form" action="#" method="post">
-                <h3 class="block_title">Зареєструватись</h3>
-                <input class="login_form-input explain_text black_border" type="text" placeholder="Логін"><input
-                    class="login_form-input explain_text black_border" type="text" placeholder="Пошта"><input
-                    class="login_form-input explain_text black_border" type="text" placeholder="Пароль"><input
-                    class="login_form-input explain_text black_border" type="text" placeholder="Повторіть пароль">
-                <button ензу="submit" class="button_text black">Реєстрація</button>
-            </form>
-        </section>
+                <form class="login_form" action="#" method="post">
+                    <h3 class="block_title">Увійти</h3>
+                    <input class="login_form-input explain_text black_border" type="text" placeholder="Логін">
+                    <div class="pass_wrap">
+                        <input type="text" class="login_form-input explain_text black_border" placeholder="Пароль">
+                        <a href="#" class="help_button_text">Забули пароль</a>
+                    </div>
+                    <button type="submit" class="button_text black">Увійти</button>
+                </form>
+            </section>
+            <section class="screen welcome" id="welcome">
+                <div class="title_wrap">
+                    <h3 class="block_title">Вітаємо</h3>
+                    <h4 class="subtitle_text">Ми допоможемо вам спланувати не забутню поїздку</h4>
+                </div>
+                <div class="button_wrap">
+                    <button class="button_text" id="login">Увійти</button>
+                    <p class="subtitle_text more_text">або</p>
+                    <button class="button_text button black" id="signup">Зареєструватись</button>
+                </div>
+            </section>
+            <section class="screen signup">
+                <div class="login_header">
+                    <button class="help_button" id="back_signup">
+                        <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
+                        <p class="help_button_text">Повернутись</p>
+                    </button>
+                </div>
+                <form class="login_form" action="#" method="post">
+                    <h3 class="block_title">Зареєструватись</h3>
+                    <input class="login_form-input explain_text black_border" type="text" placeholder="Логін"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Пошта"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Пароль"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Повторіть пароль">
+                    <button ензу="submit" class="button_text black">Реєстрація</button>
+                </form>
+            </section>
+        </div>
     </div>
 </body>
 <script src="main/js/script.js"></script>
