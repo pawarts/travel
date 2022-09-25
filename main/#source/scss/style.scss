@@ -3,6 +3,7 @@
 
     .screen_wrap {
         position: relative;
+        left: -100vw;
         display: flex;
         background-image: url('../img/login_background.svg');
         background-size: 300vw 100vh;
