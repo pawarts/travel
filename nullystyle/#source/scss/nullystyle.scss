@@ -3,7 +3,7 @@
     padding: 0;
     color: #192C4A;
     font-family: 'Raleway', sans-serif;
-    overflow-y: hidden;
+    //overflow-y: hidden;
 
     a {
         text-decoration: none;
@@ -22,7 +22,7 @@
 
     .search_input {
         border: 2px solid;
-        width: 83vw;
+        width: calc(83vw - 10px);
         padding: 6px 10px;
         border-radius: 3px;
     }
@@ -37,6 +37,12 @@
         font-weight: 500;
         font-size: 27px;
         line-height: 32px;
+    }
+
+    .button_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
     }
 
     .help_button_text {
@@ -66,6 +72,8 @@
     }
 
     .main_plan_text {
+        font-family: 'Montserrat';
+        font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 18px;
@@ -94,6 +102,36 @@
         font-size: 14px;
         line-height: 16px;
         text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        min-width: 100vw;
+
+        .nav_link-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 11px 0;
+
+            .nav_link-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 24px;
+
+                .nav_link-img {
+                    width: 24px;
+                }
+
+                .nav_link-title {
+                    color: #fff;
+                    margin-top: 4px;
+                }
+            }
+        }
     }
 
     .black {
