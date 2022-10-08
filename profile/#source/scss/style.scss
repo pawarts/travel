@@ -38,8 +38,6 @@
         padding-left: 18vw;
 
         .settings_wrap-items {
-
-            border-top: 1px solid rgba(25, 44, 74, 0.2);
             border-bottom: 1px solid rgba(25, 44, 74, 0.2);
             padding: 2vh 0;
 
@@ -52,6 +50,10 @@
                     margin-right: 5vw;
                 }
             }
+        }
+
+        .settings_wrap-items:last-child {
+            margin-bottom: 0;
         }
 
 
