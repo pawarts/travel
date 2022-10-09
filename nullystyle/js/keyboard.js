@@ -1,2 +1,5 @@
-const metaViewport = document.querySelector('meta[name=viewport]')
-metaViewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
+$(function () {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    $("html, body").css({ "width": w, "height": h });
+});
