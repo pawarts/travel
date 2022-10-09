@@ -70,6 +70,10 @@
                 transform-origin: top;
                 height: 0;
                 transform: scaleZ(0);
+
+                .choose_plan_city_font {
+                    max-width: 83vw;
+                }
             }
 
             .show {
