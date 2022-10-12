@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nullystyle/css/nullystyle.css">
+    <link rel="stylesheet" href="main/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper black">
+
+        <div class="warn_screen black">
+            <div class="warn_content">
+                <h2 class="block_title ">Увага</h2>
+                <div><span class="num_text ">Ваш пристрій більше за </span><span class="main_plan_text ">428px.</span>
+                </div>
+                <div class="button_text">Для вирішення проблеми натисніть <span class="main_plan_text">F12</span>, та
+                    змініть ширину вашого
+                    екрана до <span class="main_plan_text">428px.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="screen_wrap" id="wrapper">
+            <section class="screen login">
+                <div class="login_header">
+                    <button class="help_button" id="back_login">
+                        <p class="help_button_text">Повернутись</p>
+                        <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
+                    </button>
+                </div>
+                <form class="login_form" action="">
+                    <h3 class="block_title">Увійти</h3>
+                    <input class="login_form-input explain_text black_border" type="text" placeholder="Логін">
+                    <div class="pass_wrap">
+                        <input type="text" class="login_form-input explain_text black_border" placeholder="Пароль">
+                        <p href="city/city.html" class="help_button_text">Забули пароль</p>
+                    </div>
+                    <a href="city/city.html" type="submit" class="button_text black" id="enter">Увійти</a>
+                </form>
+            </section>
+            <section class="screen welcome" id="welcome">
+                <div class="title_wrap">
+                    <h3 class="block_title">Вітаємо</h3>
+                    <h4 class="subtitle_text">Ми допоможемо вам спланувати не забутню поїздку</h4>
+                </div>
+                <div class="button_wrap">
+                    <button class="button_text" id="login">Увійти</button>
+                    <p class="subtitle_text more_text">або</p>
+                    <button class="button_text button black" id="signup">Зареєструватись</button>
+                </div>
+            </section>
+            <section class="screen signup">
+                <div class="login_header">
+                    <button class="help_button" id="back_signup">
+                        <img class="arrow_back" src="main/img/login_from_arrow_back.svg" alt="">
+                        <p class="help_button_text">Повернутись</p>
+                    </button>
+                </div>
+                <form class="login_form" action="#" method="post">
+                    <h3 class="block_title">Реєстрація</h3>
+                    <input class="login_form-input explain_text black_border" type="text" placeholder="Логін"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Пошта"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Пароль"><input
+                        class="login_form-input explain_text black_border" type="text" placeholder="Повторіть пароль">
+                    <button type="submit" class="button_text black">Зареєструватись</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="nullystyle/js/jquery-3.6.1.min.js"></script>
+    <script src="nullystyle/js/keyboard.js"></script>
+</body>
+<script src="main/js/script.js"></script>
+
+</html>

@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .city_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 9vh;
+
+        .city_imform-title {
+            max-width: 106px;
+        }
+    }
+
+    .city_inform-items {
+        margin-top: 5vh;
+
+        .city_inform-item {
+            display: grid;
+            grid-template-columns: 29vw 27vw;
+            column-gap: 28vw;
+            margin: 0 0 10px 0;
+
+            .city_inform-title {
+                max-width: 29vw;
+            }
+
+            .city_inform-text_wrap {
+                max-width: 27vw;
+            }
+        }
+    }
+
+    .city_review-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 85vw;
+        margin-bottom: 0vh;
+
+        .tab_btn-items {
+            margin-top: 7vh;
+
+            .tab_btn-item {
+                display: flex;
+                margin-bottom: 13px;
+                cursor: pointer;
+
+                .tab_btn-title {
+                    margin-right: 59vw;
+                }
+
+                .tab_btn-img {
+                    transform: rotateZ(180deg);
+                }
+
+                .show {
+                    transform: rotateZ(0);
+                }
+            }
+
+            .tab_content-item {
+                position: relative;
+                z-index: -2;
+                text-align: justify;
+                transform-origin: top;
+                height: 0;
+                transform: scaleZ(0);
+
+                .choose_plan_city_font {
+                    max-width: 83vw;
+                }
+            }
+
+            .show {
+                transform: scaleZ(1);
+                z-index: 0;
+                height: 100%;
+                margin-bottom: 13px;
+            }
+        }
+    }
+}

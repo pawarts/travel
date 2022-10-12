@@ -1,0 +1,29 @@
+.wrapper {
+    .route_items {
+        margin-left: 8vw;
+        margin-top: 9vh;
+        margin-bottom: 10vh;
+
+        .route_item {
+            margin-top: 5vh;
+
+            .city_title {}
+
+            .site_item {
+                display: flex;
+                grid-template-columns: 1fr 1fr;
+                margin-left: 5vw;
+                margin-top: 2vh;
+
+                .site_name {
+                    width: 41vw;
+                    margin-right: 22vw;
+                }
+
+                .site_distance {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+
+    .profile_wrapper {
+        .profile_header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 87vw;
+            margin: 0 auto;
+
+            .profile_title-wrapper {
+                display: flex;
+                align-items: center;
+
+                .profile_img {
+                    width: 45px;
+                    height: 45px;
+                    background: #c4c4c4;
+                    border-radius: 50%;
+                    margin-right: 21px;
+                }
+
+                .profile_login-wrap {
+                    .num_explain_text {
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    .settings_wrap {
+        max-width: 70vw;
+        margin-top: 20vh;
+        padding-left: 18vw;
+
+        .settings_wrap-items {
+            border-bottom: 1px solid rgba(25, 44, 74, 0.2);
+            padding: 2vh 0;
+
+            .settings_wrap-item {
+                display: flex;
+                align-items: center;
+                margin: 1vh 0;
+
+                .settings_img {
+                    margin-right: 5vw;
+                }
+            }
+        }
+
+        .settings_wrap-items:last-child {
+            margin-bottom: 0;
+        }
+
+
+    }
+}
