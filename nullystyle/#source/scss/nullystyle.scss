@@ -147,3 +147,7 @@
         color: #fff;
     }
 }
+
+body {
+    min-height: -webkit-fill-available;
+}
