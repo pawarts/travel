@@ -17,3 +17,6 @@ signup.addEventListener('click', () => {
 back_signup.addEventListener('click', () => {
     wrapper.style.left = '-100vw';
 })
+
+
+navigator.virtualKeyboard.overlaysContent = true
